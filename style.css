@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 1000px) {
+    #tribute-info{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #tribute-info{
+        width: 90%;
+    }
+}
+
+main{
+    background-color: rgb(211, 211, 211);
+    width: 99%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/*cabeçalho*/
+p{
+    font-size: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-top: 30px;
+    padding-top: 60px;
+}
+
+figure{
+    background-color: white;
+}
+
+/*conteudo principal*/
+img#image {
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+#img-caption {
+    font-size: 20px;
+    text-align: center;
+}
+
+#tribute-info h2 {
+    text-align: center;
+}
+
+#tribute-info {
+    font-size: 20px;
+    padding: 10px;
+    line-height: 30px;
+    margin: auto;
+}
+
+#tribute-info li{
+    margin-bottom: 20px;
+}
+
+.italico{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/*rodape*/
+#tribute-info p, footer p {
+    margin-left: 20px;
+}
+
+footer {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+footer p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
